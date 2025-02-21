@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Форма подбора музыки</title>
+</head>
+<body id="firstpage">
+  <img src="https://s0.rbk.ru/v6_top_pics/media/img/9/38/346892389225389.png" alt="AI music" class="my-image"/>
+  <h1 id=“page-header”>Какая музыка Вам нравится?</h1>
+  <hr />
+  <form>
+  <p id="mainP">На основании Ваших ответов ИИ подберёт Вам музыку.</p>
+    <p id="allP">1. Выберите жанр </p>
+    <p>
+      <label> <input type="radio" name="genre" value="rad1"/>Классика </label> <Br>
+      <label> <input type="radio" name="genre" value="rad2"/>Джаз </label> <Br>
+      <label> <input type="radio" name="genre" value="rad3"/>Рок </label> <Br>
+      <label> <input type="radio" name="genre" value="rad4"/>Попса </label> <Br>
+      <label> <input type="radio" name="genre" value="rad5"/>Рэпчик </label> </p>
+    <p id="allP">2. Выберите эпоху
+    <div>
+      <label> <input type="checkbox" name="era" /> 1930-1940ые</label>
+      <label> <input type="checkbox" name="era" /> 1990-2000ые</label>
+    </div>
+    <div>
+      <label> <input type="checkbox" name="era" /> 1950-1960ые </label>
+      <label> <input type="checkbox" name="era" /> 2010ые</label>
+    </div>
+    <div>
+      <label> <input type="checkbox" name="era" /> 1970-1980ые </label>
+      <label> <input type="checkbox" name="era" /> 2020ые</label>
+    </div>
+    <p id="allP"> <label> 3. Любимая группа<Br>
+      <input type="text" name="group" required minlength="2" maxlength="92" size="20" /> </label>
+    <p id="allP"> <label> 4. Любимый(-ая) исполнитель(-ница)<Br>
+      <input type="text" name="singer" required minlength="2" maxlength="192" size="20" /> </label>
+    <p id="allP"><label> 5. Любимая песня<Br>
+      <input type="text" name="song" required minlength="2" maxlength="256" size="20" /> </label>
+    <p>
+    <p id="allP"><label> 6. Для чего <br>
+      <select multiple="multiple" size="7">
+        <option disabled>Выберите тему</option>
+        <option value="Прогулка">Прогулка</option>
+        <option value="Работа">Работа</option>
+        <option value="Сон">Сон</option>
+        <option value="Спорт">Спорт</option>
+        <option value="Танцы">Танцы</option>
+        <option value="Фон">Фон</option> </select>
+      </label>
+    </p>
+  </form>
+  <form action="/handler.php" method="post">
+    <button type="submit">Отправить форму</button>
+  </form>
+  <hr />
+  <p id="allP">Про танцевальные стили 1930х-1940х годов можно почитать на
+    <a href="MySiteSecondPage.html"> сайте.</a></p>
+  <a href="tel:+79139484716">Позвонить автору формы &#128512</a>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Танцы сивнговой эры</title>
+</head>
+<body id="secondpage">
+<img src="images/swingera.jpg" alt="swingera" class="my-img"/>
+<h1 id=“page-header”>Social swing dances during 1930s-1940s</h1>
+<hr />
+<p id="mainP">Свинг (от англ. swing, раскручивать) — группа танцев под музыку джаза, развившихся в поздние 1920—1940-е годы, и в том числе современные произошедшие от них стили.</p>
+<p id="allP">Наиболее популярные стили:</p>
+<ol>
+  <li> <a href="https://rutube.ru/video/e65b84dd90334227cd5d1b2b389935f7/">Balboa </a> <i>(Базовый шаг: Step, Step, Hold, Step, Step, Hold) </i> </li>
+  <li> <a href="https://rutube.ru/video/101baa86d1320778c5d66ea8e282a011/">Blues </a> <i>(Базовый шаг: Step, Touch, Step, Touch, Step, Touch, Step, Touch) </i> </li>
+  <li> <a href="https://rutube.ru/video/e46ac72fc6ad8cc145934fb93421f673/">Lindy Hop </a> <i>(Базовый шаг: Rock-Step, Triple-Step, Step, Step, Triple-Step) </i> </li>
+  <li> <a href="https://rutube.ru/video/049415e814df645c72fc43298befd205/">Solo Jazz </a> <i>(Базовый шаг: - ) </i> </li>
+</ol>
+
+<style>
+  .red {
+    background-color: red;
+  }
+  .green {
+    background-color: green;
+  }
+</style>
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script>
+  $(function() {
+    $('td:contains("-")').addClass('red');
+    $('td:contains("+")').addClass('green');
+  });
+</script>
+
+<form>
+<h3 id=“page-header”>Темпы песен в зависимости от стиля танца</h3>
+<table border="1" id="table">
+  <tr>
+    <th>Swing Dance</th>
+    <th>80-130 bpm</th>
+    <th>130-170 bpm</th>
+    <th>170-220 bpm</th>
+    <th>220-300+ bpm</th>
+  </tr>
+  <tr>
+    <td>Balboa</td> <td>+</td> <td>-</td> <td colspan="2">+</td>
+  </tr>
+  <tr>
+    <td>Blues</td> <td colspan="2">+</td> <td colspan="2">-</td>
+  </tr>
+  <tr>
+    <td>Lindy Hop</td> <td>-</td> <td colspan="2">+</td> <td>-</td>
+  </tr>
+  <tr>
+    <td>Solo Jazz</td> <td colspan="4">+</td>
+  </tr>
+</table>
+  <h4> <i>*bpm - beat per minute </i> </h4>
+</form>
+
+<p class="thumb">
+  <figure>
+    <img src="images/balboa.jpg" alt="Фотография 1" width="120" height="120">
+    <figcaption>Balboa</figcaption>
+  </figure>
+  <figure>
+    <img src="images/blues.jpg" alt="Фотография 2" width="120" height="120">
+    <figcaption>Blues</figcaption>
+  </figure>
+  <figure>
+    <img src="images/lindy.jpg" alt="Фотография 3" width="120" height="120">
+    <figcaption>Lindy Hop</figcaption>
+  </figure>
+  <figure>
+    <img src="images/solo.png" alt="Фотография 4" width="120" height="120">
+    <figcaption>Solo Jazz</figcaption>
+  </figure>
+</p>
+<hr />
+<p id="allP">Для подбора музыки с помощью ИИ пройдите по
+  <a href="MySiteFirstPage.html"> ссылке.</a></p>
+
+</body>
+</html>

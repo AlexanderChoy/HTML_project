@@ -1,0 +1,66 @@
+/* 1я страница */
+    [id^="firstpage"] {
+      background: palegreen;
+    }
+
+    .my-image {
+      width: 427px;
+      height: auto;
+    }
+
+    [id^="allP"] {
+      color: brown !important;
+      font-weight: bold;
+    }
+
+/* 2я страница */
+
+    .my-img {
+      width: 600px;
+      height: 300px;
+    }
+
+    [id^="secondpage"] {
+      background-color: #FFA07A;
+    }
+
+[id^="table"] {
+  border: solid thin;
+  border-collapse: collapse;
+}
+#table caption {
+  padding-bottom: 0.5em;
+}
+#table th,
+#table td {
+  border: solid thin;
+  align: center;
+}
+#table td {
+  white-space: nowrap;
+}
+#table th {
+  font-weight: bold;
+}
+#table td {
+  border-style: solid;
+  text-align: center;
+  vertical-align: center;
+}
+#table th {
+  padding: 0.2em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+   .thumb img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    }
+
+    .sign figcaption {
+        margin: 0 auto 5px; /* Отступы вокруг абзаца */
+       }
