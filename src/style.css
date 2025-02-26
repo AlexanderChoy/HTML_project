@@ -1,5 +1,5 @@
 /* 1я страница */
-    [id^="firstpage"] {
+    .firstpage {
       background: palegreen;
     }
 
@@ -8,12 +8,17 @@
       height: auto;
     }
 
-    [id^="allP"] {
+    .allP {
       color: brown !important;
       font-weight: bold;
     }
 
 /* 2я страница */
+
+    .page-header {
+      color: brown !important;
+      font-weight: bold;
+    }
 
     .my-img {
       width: 600px;
@@ -64,3 +69,10 @@
     .sign figcaption {
         margin: 0 auto 5px; /* Отступы вокруг абзаца */
        }
+
+  .red {
+    background-color: red;
+  }
+  .green {
+    background-color: green;
+  }
